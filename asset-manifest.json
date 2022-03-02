@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/BrunoRolon-AnaCeciliaShop/static/css/main.edced947.css",
-    "main.js": "/BrunoRolon-AnaCeciliaShop/static/js/main.4a76ae22.js",
-    "static/media/peluqueria.jpg": "/BrunoRolon-AnaCeciliaShop/static/media/peluqueria.ad1d4a927626c81297fc.jpg",
-    "static/media/bag.svg": "/BrunoRolon-AnaCeciliaShop/static/media/bag.902fec359b972123c2e953bac32e594f.svg",
-    "index.html": "/BrunoRolon-AnaCeciliaShop/index.html",
-    "main.edced947.css.map": "/BrunoRolon-AnaCeciliaShop/static/css/main.edced947.css.map",
-    "main.4a76ae22.js.map": "/BrunoRolon-AnaCeciliaShop/static/js/main.4a76ae22.js.map"
+    "main.css": "/brunorolon-store/static/css/main.a3ea8049.css",
+    "main.js": "/brunorolon-store/static/js/main.1e0ae4c0.js",
+    "static/media/peluqueria.jpg": "/brunorolon-store/static/media/peluqueria.ad1d4a927626c81297fc.jpg",
+    "static/media/bag.svg": "/brunorolon-store/static/media/bag.902fec359b972123c2e953bac32e594f.svg",
+    "index.html": "/brunorolon-store/index.html",
+    "main.a3ea8049.css.map": "/brunorolon-store/static/css/main.a3ea8049.css.map",
+    "main.1e0ae4c0.js.map": "/brunorolon-store/static/js/main.1e0ae4c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.edced947.css",
-    "static/js/main.4a76ae22.js"
+    "static/css/main.a3ea8049.css",
+    "static/js/main.1e0ae4c0.js"
   ]
 }
