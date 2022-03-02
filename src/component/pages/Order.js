@@ -1,8 +1,7 @@
 import { db } from "../../firebase/firebase";
 import { useContext, useEffect, useState } from "react";
 import { CardContext } from "../../context/CardContext";
-import { Timestamp } from "firebase/firestore";
-import { addDoc, collection } from "firebase/firestore";
+import { Timestamp, addDoc, collection } from "firebase/firestore";
 import Swal from "sweetalert2";
 import AdShop from "../AdShop/AdShop";
 import { Link } from "react-router-dom";
@@ -106,8 +105,9 @@ const Order = () => {
               className="input"
               name="phone"
               type="tel"
-              pattern="[0-9]{4}[0-9]{3}[0-9]{4}"
-              maxLength={11}
+              placeholder="Ej.1134567891"
+              pattern="[0-9]{3}[0-9]{3}[0-9]{4}"
+              maxLength={10}
               required
               value={buyer.phone}
             />

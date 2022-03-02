@@ -79,7 +79,7 @@ Run Deploy para gh-page
 
 docs
 
-### `https://github.com/sweetalert2/sweetalert2-react-content`
+https://github.com/sweetalert2/sweetalert2-react-content
 
 ### `import Swal from "sweetalert2`
 
@@ -95,7 +95,7 @@ etc...
 
 Docs
 
-### `https://fontawesome.com/v5/docs/web/use-with/react`
+https://fontawesome.com/v5/docs/web/use-with/react
 
 ### `import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";`
 
@@ -126,6 +126,14 @@ size="6x"
 ### `Ver de mejorar el los link a paginas externas`
 
 despues de mucho buscar se prefirio usar function onClick con window.open para no usar etiqueta a con href
+
+### `gitHub`
+
+https://github.com/leobrunorolon/brunorolon-store
+
+### `gh-pages`
+
+https://leobrunorolon.github.io/brunorolon-store/
 
 ### `Video gif`
 
