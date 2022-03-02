@@ -1,0 +1,37 @@
+.CategoryAll {
+  margin: 1rem 0 2rem 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.CategoryAll--contain {
+  border-radius: 0.5rem;
+  width: 15rem;
+  text-decoration: none;
+  border: solid 1px #535353;
+}
+.CategoryAll--title {
+  background-color: #000;
+  height: 4rem;
+  color: #fff;
+  padding: 1rem 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+.CategoryAll--contain:hover > .CategoryAll--title {
+  background-color: #333333;
+  font-size: 1.7rem;
+  transition: 1s;
+}
+
+.CategoryAll--img {
+  padding: 0.7rem 0.7rem;
+  width: 15rem;
+  height: 12rem;
+  object-fit: contain;
+}
+.CategoryAll--img:hover {
+  transition: transform 1s;
+  transform: scale(1.1);
+}

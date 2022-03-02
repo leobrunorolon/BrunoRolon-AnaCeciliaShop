@@ -1,0 +1,80 @@
+.ItemDetail {
+  margin: 2rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: #535353 5px 5px 15px 10px;
+  text-decoration: none;
+  color: #000000;
+  display: flex;
+  height: auto;
+}
+.ItemDetail--division1 {
+  width: 110rem;
+  height: 30rem;
+  margin: 2rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ItemDetail--division1 :hover {
+  transition: transform 1s;
+  transform: scale(1.1);
+}
+.ItemDetail--division1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.ItemDetail--division2 {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+.ItemDetail--title {
+  font-size: 1.5rem;
+  padding: 1rem 1rem;
+  color: #fff;
+  background-color: #2d2d2d;
+  font-family: "Roboto", sans-serif;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.ItemDetail--price {
+  padding: 0.5rem 1rem;
+  background-color: #2d2d2d;
+  color: #fff;
+  border-radius: 0.5rem;
+  font-weight: bold;
+}
+.ItemDetail--description {
+  text-align: start;
+  font-family: "Roboto", sans-serif;
+}
+.ItemDetail--Link {
+  text-decoration: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.3rem;
+  margin: 2rem 0;
+  font-size: 0.9rem;
+  color: #007acc;
+  border-color: transparent;
+  background-color: rgba(65, 137, 230, 0.15);
+}
+.ItemDetail--Link:hover {
+  background-color: rgba(37, 104, 190, 0.15);
+}
+.ItemDetail--buttonBuy {
+  text-decoration: none;
+  border-radius: 0.3rem;
+  padding: 0.7rem 0.7rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #3483fa;
+  border-color: transparent;
+  margin-bottom: 1rem;
+}
+.ItemDetail--buttonBuy:hover {
+  background-color: #236edf;
+}

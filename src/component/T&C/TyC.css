@@ -1,0 +1,12 @@
+.Tyc--contain {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 5rem;
+}
+.TyC--center {
+  display: flex;
+  justify-content: center;
+}

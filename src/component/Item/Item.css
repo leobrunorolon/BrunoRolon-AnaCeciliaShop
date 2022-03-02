@@ -1,0 +1,48 @@
+.Item--Link {
+  margin: 2rem 2rem;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px #535353;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  color: #000000;
+  height: 30rem;
+  width: 20rem;
+}
+.Item--img {
+  padding: 2rem 1rem 1rem 1rem;
+  width: 19rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+}
+.Item--img :hover {
+  transition: transform 1s;
+  transform: scale(1.1);
+}
+.Item--img img {
+  width: 100%;
+  object-fit: contain;
+}
+.Item--secondary {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+.Item--secondaryTitle {
+  font-size: 1.1rem;
+}
+.Item--secondaryPrice {
+  background-color: #292929;
+  color: #fff;
+  font-size: 1.3rem;
+  border-radius: 0.3rem;
+  padding: 0.2rem;
+}
+.Item--secondaryPrice:hover {
+  background-color: #535353;
+}

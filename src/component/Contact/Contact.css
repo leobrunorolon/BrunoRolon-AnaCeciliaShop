@@ -1,0 +1,15 @@
+.Contact--contain {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  align-items: center;
+  padding: 2rem 0;
+}
+.Contact--division {
+  display: flex;
+  gap: 1rem;
+  width: 20rem;
+}
+.Contact--division svg:hover {
+  color: #3aadad;
+}

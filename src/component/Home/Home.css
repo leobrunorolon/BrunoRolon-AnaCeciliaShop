@@ -1,0 +1,44 @@
+.Home--contain {
+  display: flex;
+  justify-content: space-between;
+}
+.Home--division {
+  width: 50vw;
+  height: 35rem;
+  padding: 0 1rem;
+  color: #fff;
+  background-color: #000;
+}
+.Home--division p {
+  margin-bottom: 1rem;
+}
+.Home--title {
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+}
+.home--divisionImg1 {
+  background-image: url(https://cdn.pixabay.com/photo/2016/06/06/17/05/woman-1439909_960_720.jpg);
+}
+.home--divisionImg2 {
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/06/22/57/portrait-3204843_960_720.jpg);
+}
+.Home--division2 {
+  width: 50vw;
+  padding: 1rem 1rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: contain;
+}
+.Home--desplegableContain {
+  margin-bottom: 1.5rem;
+}
+.Home--desplegable {
+  display: none;
+}
+.Home--desplegableContain:hover > .Home--desplegable {
+  display: initial;
+}
+.Home--desplegableTitle {
+  text-align: center;
+}

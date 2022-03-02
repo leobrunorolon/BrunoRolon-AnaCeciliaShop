@@ -1,0 +1,14 @@
+.navBar--cart {
+  height: 3rem;
+  padding-top: 1rem;
+  display: flex;
+}
+.navBar--cart img {
+  object-fit: contain;
+}
+.navBar--cartItems {
+  color: #eb4d80;
+  padding: 0.5rem 0 0 0.5rem;
+  justify-content: center;
+  align-items: center;
+}
