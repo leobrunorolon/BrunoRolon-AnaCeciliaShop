@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/brunorolon-store/static/css/main.a3ea8049.css",
-    "main.js": "/brunorolon-store/static/js/main.c9ead641.js",
+    "main.css": "/brunorolon-store/static/css/main.764ab98e.css",
+    "main.js": "/brunorolon-store/static/js/main.3a34f945.js",
     "static/media/peluqueria.jpg": "/brunorolon-store/static/media/peluqueria.ad1d4a927626c81297fc.jpg",
     "static/media/bag.svg": "/brunorolon-store/static/media/bag.902fec359b972123c2e953bac32e594f.svg",
     "index.html": "/brunorolon-store/index.html",
-    "main.a3ea8049.css.map": "/brunorolon-store/static/css/main.a3ea8049.css.map",
-    "main.c9ead641.js.map": "/brunorolon-store/static/js/main.c9ead641.js.map"
+    "main.764ab98e.css.map": "/brunorolon-store/static/css/main.764ab98e.css.map",
+    "main.3a34f945.js.map": "/brunorolon-store/static/js/main.3a34f945.js.map"
   },
   "entrypoints": [
-    "static/css/main.a3ea8049.css",
-    "static/js/main.c9ead641.js"
+    "static/css/main.764ab98e.css",
+    "static/js/main.3a34f945.js"
   ]
 }
