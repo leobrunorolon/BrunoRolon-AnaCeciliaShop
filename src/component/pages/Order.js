@@ -24,6 +24,8 @@ const Order = () => {
     total: total,
   });
 
+  const [orderId, setOrderId] = useState();
+
   const createOrder = async (orderCreate) => {
     if (order === false) {
       Swal.fire({
@@ -50,6 +52,8 @@ const Order = () => {
         orderCreate
       );
       setOrder(!createOrderSubit);
+      const orderId = createOrderSubit.id;
+      setOrderId(orderId);
       Swal.fire({
         icon: "success",
         title: "Tu pedido se a cargado con Exito",
@@ -136,6 +140,14 @@ const Order = () => {
             Nos estaremos comunicando a la brevedad, para informarte el metodo
             de pago y el envio.
           </span>
+          {orderId && (
+            <>
+              <p>Nombre: {buyer.name}</p>
+              <p>Email: {buyer.email}</p>
+              <p>Telefono:+54 {buyer.phone}</p>
+              <p className="OrderId">Orden: {orderId}</p>
+            </>
+          )}
           <Link className="ItemDetail--Link" to="/">
             Volver a Home
           </Link>

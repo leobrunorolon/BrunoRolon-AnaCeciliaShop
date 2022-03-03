@@ -19,16 +19,6 @@
   color: #707070;
   text-decoration: none;
 }
-.Footer--division span {
-  color: #707070;
-}
-.Footer--division svg:hover {
-  color: #3aadad;
-}
-.Footer--division p:hover {
-  color: #3aadad;
-  cursor: pointer;
-}
 .Footer--division a:hover {
   color: #3aadad;
 }
@@ -52,6 +42,8 @@
 }
 .FooterDesign {
   cursor: pointer;
+  text-decoration: none;
+  color: #fff;
 }
 .FooterDesign:hover {
   color: #3aadad;

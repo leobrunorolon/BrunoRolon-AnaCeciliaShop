@@ -43,3 +43,7 @@
 .buttonBuy:hover {
   background-color: #236edf;
 }
+.OrderId {
+  font-size: 1.3rem;
+  font-weight: bold;
+}

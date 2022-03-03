@@ -10,7 +10,7 @@ const ItemList = ({ products }) => {
       <Fragment>
         <div className="ItemList">
           {products.map((product) => (
-            <Item {...product} />
+            <Item {...product} key={product.id} />
           ))}
         </div>
       </Fragment>
