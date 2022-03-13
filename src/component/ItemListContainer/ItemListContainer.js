@@ -41,7 +41,7 @@ const ItemListContainer = ({ greeting }) => {
 
       <AdSellOf discount={30} product={"para el cuidado del cabello!"} />
       {isLoading ? (
-        Swal.showLoading()
+        Swal.showLoading(Swal.getDenyButton())
       ) : error ? (
         Swal.fire({
           icon: "error",

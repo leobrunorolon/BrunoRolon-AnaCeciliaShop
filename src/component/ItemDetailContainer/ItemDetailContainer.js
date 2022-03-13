@@ -33,7 +33,7 @@ const ItemDetailContainer = () => {
     <Fragment>
       <div className="ItemDetailContainer">
         {isLoading ? (
-          Swal.showLoading()
+          Swal.showLoading(Swal.getDenyButton())
         ) : error ? (
           Swal.fire({
             icon: "error",
